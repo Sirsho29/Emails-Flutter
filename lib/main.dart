@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_email_sender/flutter_email_sender.dart';
 
@@ -202,6 +203,13 @@ class _MyHomePageState extends State<MyHomePage> {
                                   );
 
                                   try {
+                                    await Firestore.instance
+                                        .collection('contacted')
+                                        .add({
+                                      'name': name,
+                                      'emailId': emailId,
+                                      'phone': phone,
+                                    });
                                     await FlutterEmailSender.send(email)
                                         .whenComplete(() {
                                       setState(() {

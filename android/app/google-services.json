@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "320963254137",
+    "firebase_url": "https://redpositive-68c42.firebaseio.com",
+    "project_id": "redpositive-68c42",
+    "storage_bucket": "redpositive-68c42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320963254137:android:8112f8e58b559fd8c141a8",
+        "android_client_info": {
+          "package_name": "com.example.redpositive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320963254137-jiu1lu8s97kub5l78646t00mtj5ve12d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7T9E-Tnk1uOaH1Lqo86m6Z9WW13YMMXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320963254137-jiu1lu8s97kub5l78646t00mtj5ve12d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
